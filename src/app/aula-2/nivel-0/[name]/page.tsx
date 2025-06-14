@@ -1,8 +1,8 @@
 import Link from "next/link";
 
-import { Hobbies } from "@/components/Hobbies";
-import { Imagem } from "@/components/Imagem";
-import { MeuNome } from "@/components/MeuNome";
+import { Hobbies } from "@/components/aula-2/Hobbies";
+import { Imagem } from "@/components/aula-2/Imagem";
+import { MeuNome } from "@/components/aula-2/MeuNome";
 
 type PageProps = {
   params: Promise<{
@@ -21,7 +21,7 @@ const Page = async ({ params }: PageProps) => {
         <p>Gosto de:</p>
         <Imagem />
       </div>
-      <Link className="underline" href="/nivel-0">
+      <Link className="underline" href="/aula-2/nivel-0">
         Voltar
       </Link>
     </div>
