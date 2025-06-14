@@ -1,7 +1,8 @@
 "use client";
 
-import { ContadorContext } from "@/context/aula-2/ContadorContext";
 import { useContext } from "react";
+
+import { ContadorContext } from "@/context/aula-2/ContadorContext";
 
 export const ValorContadorGlobal = () => {
   const { contador } = useContext(ContadorContext);
