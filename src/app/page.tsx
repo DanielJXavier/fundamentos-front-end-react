@@ -35,6 +35,26 @@ export default function Home() {
               Aula 3 - Community libraries
             </Link>
           </li>
+          <li>
+            <Link className="underline" href="/login">
+              Aula 4 - Login
+            </Link>
+          </li>
+          <li>
+            <Link className="underline" href="/dashboard">
+              Aula 4 - Dashboard
+            </Link>
+          </li>
+          <li>
+            <Link className="underline" href="/test-server">
+              Aula 4 - Test Server-side
+            </Link>
+          </li>
+          <li>
+            <Link className="underline" href="/test-client">
+              Aula 4 - Test Client-side
+            </Link>
+          </li>
         </ol>
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
